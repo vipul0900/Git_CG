@@ -1,1 +1,2 @@
-Squash demo
+I am in the Squash branch
+This commit is from the bash
