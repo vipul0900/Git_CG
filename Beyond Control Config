@@ -1,0 +1,35 @@
+[user]
+	email = xyz@xyz.com
+	name = xyz abc
+[merge]
+	tool = bc3
+[core]
+	autocrlf = input
+[diff]
+	tool = bc3
+                guitool = bc3
+[difftool "bc3"]
+                path = C:/Program Files/Beyond Compare 4/BCompare.exe
+[mergetool "bc3"]
+                path = C:/Program Files/Beyond Compare 4/BCompare.exe
+                cmd = \"C:/Program Files/Beyond Compare 4/BCompare.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
+                trustExitCode = true
+
+[pull]
+                rebase = true
+
+[push]
+                default = simple
+[difftool]
+	prompt = false
+	bc = trustExitCode
+[mergetool]
+	bc = trustExitCode
+[difftool "bc"]
+	path = C:/Program Files/Beyond Compare 4/BCompare.exe
+[mergetool "bc"]
+	path = C:/Program Files/Beyond Compare 4/BCompare.exe
+
+[credential]
+	helper = manager
+	
