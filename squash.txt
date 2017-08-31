@@ -1,2 +1,4 @@
 I am in the Squash branch
 This commit is from the bash
+New line
+i am from bash
